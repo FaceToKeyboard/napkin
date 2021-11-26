@@ -28,13 +28,13 @@ export default function Landing() {
       </div>
       <div className="max-w-md m-5 mx-auto text-center shadow-2xl card">
         <figure>
-          <Image src="/profile.png" width="500" height="500" className="max-w-sm" />
+          <Image src="/profile.png" width="500" height="500" className="max-w-sm" alt="profile photo of this site's creator; Fanno." />
         </figure> 
         <div className="card-body">
           <h2 className="card-title">Fanno Chea
             <div className="mx-2 badge badge-secondary">Developer</div>
           </h2> 
-          <p>My background is in technical support, and I love solving problems. Now, I'm looking to create solutions as a software developer!</p> 
+          <p>My background is in technical support, and I love solving problems. Now, I&apos;m looking to create solutions as a software developer!</p> 
           <div className="justify-end card-actions">
             <a href="https://github.com/FaceToKeyboard"><button className="btn btn-secondary">Github</button></a>
             <a href="https://www.linkedin.com/in/fanno-chea/"><button className="btn btn-secondary">LinkedIn</button></a>
