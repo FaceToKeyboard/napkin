@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Landing() {
   return (
     <>
-      <div className="hero bg-base" style={{"height": "95vh"}}>
+      <div className="hero bg-base-100" style={{"height": "95vh"}}>
         <div className="flex-col hero-content lg:flex-row-reverse">
           <div className="max-w-sm">
             <Image src="/app_preview.png" width="859" height="700" className="shadow-2xl max-h-72 rounded-xl" alt="A small preview of the drawing webapp" />
@@ -26,7 +26,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div className="max-w-md m-5 mx-auto text-center shadow-2xl card">
+      <div className="max-w-md m-5 mx-auto text-center shadow-2xl card bg-base-200">
         <figure>
           <Image src="/profile.png" width="500" height="500" className="max-w-sm" alt="profile photo of this site's creator; Fanno." />
         </figure> 
