@@ -3,6 +3,9 @@
 A simple sketching webapp where users can freeform draw, and save their drawing as a jpg or png.
 Created in four days for a hackathon, and I learned and used Next.js for the first time.
 
+
+<img src="public/app_preview.png" width="60%" />
+
 # Technologies
 
 * [React](https://reactjs.org/)
